@@ -11,3 +11,4 @@ import org.springframework.stereotype.Repository;
 public interface PedidoRepository extends JpaRepository<com.example.mspedidos.entity.Pedido, Integer> {
     Integer id(Integer id);
 }
+

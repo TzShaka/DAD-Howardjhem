@@ -39,5 +39,8 @@ public class PedidoServiceImpl implements PedidoService {
     public void eliminar(Integer id) {
         pedidoRepository.deleteById(id);
 
+
+
     }
+
 }
